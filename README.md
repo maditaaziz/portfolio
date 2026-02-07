@@ -21,7 +21,7 @@ Static files are exported to the `out/` directory.
 
 ## Deployment
 
-This project is configured for automatic deployment to GitHub Pages via GitHub Actions. Push to the `main` branch to trigger a deploy.
+This project is configured for automatic deployment to GitHub Pages via GitHub Actions. Push to the `master` branch to trigger a deploy.
 
 ## Customization
 
