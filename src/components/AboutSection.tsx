@@ -38,8 +38,8 @@ export default function AboutSection() {
               {/* Photo */}
               <div className="relative w-[280px] h-[264px] sm:w-[320px] sm:h-[300px] md:w-[400px] md:h-[380px] lg:w-[460px] lg:h-[440px] overflow-hidden rounded">
                 <Image
-                  src="/images/about.png"
-                  alt="Mads Schmidt Portrait"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/about.png`}
+                  alt="Madita Portrait"
                   fill
                   className="object-cover"
                   sizes="(max-width: 640px) 280px, (max-width: 768px) 320px, (max-width: 1024px) 400px, 460px"

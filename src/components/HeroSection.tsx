@@ -22,7 +22,7 @@ export default function HeroSection() {
             {/* Photo */}
             <div className="relative w-[260px] h-[347px] sm:w-[280px] sm:h-[373px] md:w-[340px] md:h-[453px] lg:w-[400px] lg:h-[533px] overflow-hidden rounded">
               <Image
-                src="/images/hero.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/hero.png`}
                 alt="Madita – Freiberufliche Lektorin"
                 fill
                 className="object-cover scale-110 -translate-y-[5%]"

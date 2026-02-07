@@ -62,7 +62,7 @@ export default function ContactPage() {
               {/* Photo */}
               <div className="relative w-[200px] h-[188px] sm:w-[260px] sm:h-[245px] md:w-[400px] md:h-[380px] lg:w-[460px] lg:h-[420px] overflow-hidden rounded">
                 <Image
-                  src="/images/contact.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/contact.png`}
                   alt="Madita – Kontakt"
                   fill
                   className="object-cover object-center"

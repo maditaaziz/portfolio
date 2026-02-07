@@ -1,9 +1,14 @@
 /** @type {import('next').NextConfig} */
+const basePath =
+  process.env.NODE_ENV === "production" ? "/portfolio" : "";
+
 const nextConfig = {
   output: "export",
-  // Only use /portfolio for production (e.g. GitHub Pages); root path for local dev
-  basePath: process.env.NODE_ENV === "production" ? "/portfolio" : "",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/portfolio" : "",
+  basePath,
+  assetPrefix: basePath,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
   images: {
     unoptimized: true,
   },
