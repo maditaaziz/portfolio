@@ -1,4 +1,4 @@
-# Mads Schmidt Portfolio
+# Madita Aziz Portfolio
 
 A modern portfolio website built with Next.js 14, TypeScript, and TailwindCSS.
 
