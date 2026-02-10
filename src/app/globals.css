@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-  /* Primary accent - rusty orange */
-  --color-primary: #B5502F;
+  /* Primary accent - coral */
+  --color-primary: #E07058;
   --color-primary-light: #C96545;
 
   /* Backgrounds */
-  --color-bg-warm: #F7F0E6;
-  --color-bg-white: #FFFFFF;
+  --color-bg-warm: #FAF6F0;
+  --color-bg-white: #F5EFE6;
 
   /* Text */
   --color-text-dark: #2D2D2D;

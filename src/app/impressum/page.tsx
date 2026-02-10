@@ -9,7 +9,7 @@ export default function ImpressumPage() {
         <div className="mt-10 space-y-8 font-body text-text-dark text-base leading-relaxed">
           <div>
             <p>
-              Madita Aziz
+              Madita Anna Aziz
               <br />
               Egger-Lienz-Gasse 7
               <br />
