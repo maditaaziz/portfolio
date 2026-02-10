@@ -13,12 +13,9 @@ export default function Footer() {
               Madita Anna
             </Link>
             <div className="mt-1 flex flex-col gap-1">
-              <Link
-                href="mailto:madita.lektorat@gmail.com"
-                className="text-sm font-body text-text-dark hover:text-primary transition-colors duration-200"
-              >
+              <span className="text-sm font-body text-text-dark">
                 madita.lektorat@gmail.com
-              </Link>
+              </span>
               <a
                 href="https://www.instagram.com/maditaanna_lektorat/"
                 target="_blank"

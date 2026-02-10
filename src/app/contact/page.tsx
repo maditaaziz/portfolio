@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ContactPage() {
   return (
@@ -25,12 +24,7 @@ export default function ContactPage() {
                   E-Mail
                 </h2>
                 <p className="font-body text-text-dark text-base leading-relaxed">
-                  <Link
-                    href="mailto:madita.lektorat@gmail.com"
-                    className="hover:text-primary transition-colors duration-200"
-                  >
-                    madita.lektorat@gmail.com
-                  </Link>
+                  madita.lektorat@gmail.com
                 </p>
               </div>
 
@@ -40,12 +34,7 @@ export default function ContactPage() {
                   Telefon
                 </h2>
                 <p className="font-body text-text-dark text-base leading-relaxed">
-                  <Link
-                    href="tel:+436645055561"
-                    className="hover:text-primary transition-colors duration-200"
-                  >
-                    +43 (0) 664 50 555 61
-                  </Link>
+                  +43 (0) 664 50 555 61
                 </p>
               </div>
             </div>
