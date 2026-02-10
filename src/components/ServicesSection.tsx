@@ -114,7 +114,7 @@ export default function ServicesSection() {
 
       {/* Service Cards */}
       <div className="max-w-7xl mx-auto px-6 lg:px-8 pb-8 lg:pb-12">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
           <ServiceCard id="lektorat" title="Lektorat" accent="top-right">
             <p>
               Im Lektorat kommentiere ich das Manuskript und gebe inhaltliches
@@ -173,6 +173,10 @@ export default function ServicesSection() {
             <p>
               Auf Wunsch prüfe ich auch das Satzdokument – also Absätze,
               Umbrüche und die formale Gestaltung vor Veröffentlichung.
+            </p>
+            <p>
+              Ich übernehme auch Korrektorate für Sachtexte und
+              Website-Textierungen.
             </p>
           </ServiceCard>
         </div>

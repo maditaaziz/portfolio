@@ -20,12 +20,12 @@ export default function HeroSection() {
             <div className="absolute -bottom-5 -right-5 w-4/5 h-4/5 border-b-[3px] border-r-[3px] border-primary pointer-events-none" />
 
             {/* Photo */}
-            <div className="relative w-[260px] h-[347px] sm:w-[280px] sm:h-[373px] md:w-[340px] md:h-[453px] lg:w-[400px] lg:h-[533px] overflow-hidden rounded">
+            <div className="relative w-[260px] h-[290px] sm:w-[280px] sm:h-[310px] md:w-[340px] md:h-[380px] lg:w-[400px] lg:h-[450px] overflow-hidden rounded">
               <Image
                 src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/hero.png`}
                 alt="Madita – Freiberufliche Lektorin"
                 fill
-                className="object-cover scale-110 -translate-y-[5%]"
+                className="object-cover object-[center_30%]"
                 priority
                 sizes="(max-width: 640px) 260px, (max-width: 768px) 280px, (max-width: 1024px) 340px, 400px"
               />
@@ -41,9 +41,8 @@ export default function HeroSection() {
 
           <p className="mt-6 sm:mt-8 text-base lg:text-lg text-text-dark font-body max-w-lg leading-relaxed">
             Ich bin Madita, freiberufliche Lektorin. Ich arbeite vor allem mit
-            Selfpublishern und begleite Autorinnen und Autoren bei der
-            Überarbeitung ihrer Texte und unterstütze mit klarem Feedback und
-            neuen Perspektiven.
+            Selfpublishern und unterstütze Autorinnen und Autoren mit klarem
+            Feedback und neuen Perspektiven.
           </p>
 
           <p className="mt-4 sm:mt-6 text-base lg:text-lg text-text-dark font-body max-w-lg leading-relaxed">
@@ -52,6 +51,11 @@ export default function HeroSection() {
             letzte Korrektur vor Veröffentlichung? Egal, an welchem Punkt du
             gerade stehst, ich unterstütze dich in deinem Schreibprozess und
             nehme deinen Text genauso ernst wie du.
+          </p>
+
+          <p className="mt-4 sm:mt-6 text-base lg:text-lg text-text-dark font-body max-w-lg leading-relaxed">
+            Neben Romanprojekten lektoriere und korrigiere ich bei Bedarf auch
+            Sach- und Website-Texte.
           </p>
 
           <div className="mt-8 sm:mt-10">

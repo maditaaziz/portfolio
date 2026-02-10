@@ -60,12 +60,12 @@ export default function ContactPage() {
               <div className="absolute -bottom-5 -right-5 w-4/5 h-4/5 border-b-[3px] border-r-[3px] border-primary pointer-events-none" />
 
               {/* Photo */}
-              <div className="relative w-[200px] h-[188px] sm:w-[260px] sm:h-[245px] md:w-[400px] md:h-[380px] lg:w-[460px] lg:h-[420px] overflow-hidden rounded">
+              <div className="relative w-[180px] h-[200px] sm:w-[210px] sm:h-[235px] md:w-[270px] md:h-[300px] lg:w-[300px] lg:h-[335px] overflow-hidden rounded">
                 <Image
                   src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/contact.png`}
                   alt="Madita – Kontakt"
                   fill
-                  className="object-cover object-center"
+                  className="object-cover"
                   sizes="(max-width: 640px) 200px, (max-width: 768px) 260px, (max-width: 1024px) 400px, 460px"
                 />
               </div>

@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-bg-warm">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-10 lg:py-14">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+        <div className="flex flex-col md:flex-row items-end justify-between gap-8">
           {/* Left - Brand & Contact */}
           <div className="text-center md:text-left">
             <Link href="/" className="text-xl font-heading text-primary font-bold tracking-tight">
@@ -19,12 +19,29 @@ export default function Footer() {
               >
                 madita.lektorat@gmail.com
               </Link>
-              <Link
-                href="tel:+436645055561"
-                className="text-sm font-body text-text-dark hover:text-primary transition-colors duration-200"
+              <a
+                href="https://www.instagram.com/maditaanna_lektorat/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-text-dark hover:text-primary transition-colors duration-200 mt-1"
+                aria-label="Instagram"
               >
-                +43 (0) 664 50 555 61
-              </Link>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+              </a>
             </div>
           </div>
 

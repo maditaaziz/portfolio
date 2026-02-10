@@ -28,7 +28,7 @@ export default function AboutSection() {
           </div>
 
           {/* Right Column - Photo with asymmetric decorative frame */}
-          <div className="flex justify-center lg:justify-start">
+          <div className="flex justify-center lg:justify-start lg:pl-12">
             <div className="relative m-5">
               {/* Corner accent — L-shape at top-left */}
               <div className="absolute -top-5 -left-5 w-4/5 h-4/5 border-t-[3px] border-l-[3px] border-primary pointer-events-none" />
@@ -36,12 +36,12 @@ export default function AboutSection() {
               <div className="absolute -bottom-5 -right-5 w-4/5 h-4/5 border-b-[3px] border-r-[3px] border-primary pointer-events-none" />
 
               {/* Photo */}
-              <div className="relative w-[280px] h-[264px] sm:w-[320px] sm:h-[300px] md:w-[400px] md:h-[380px] lg:w-[460px] lg:h-[440px] overflow-hidden rounded">
+              <div className="relative w-[220px] h-[268px] sm:w-[250px] sm:h-[305px] md:w-[300px] md:h-[366px] lg:w-[340px] lg:h-[415px] overflow-hidden rounded">
                 <Image
                   src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/about.png`}
                   alt="Madita Portrait"
                   fill
-                  className="object-cover"
+                  className="object-cover scale-110"
                   sizes="(max-width: 640px) 280px, (max-width: 768px) 320px, (max-width: 1024px) 400px, 460px"
                 />
               </div>
@@ -123,26 +123,6 @@ export default function AboutSection() {
                   </Link>{" "}
                   und erzähl mir von deinem Projekt.
                 </p>
-              </div>
-
-              {/* Referenzen */}
-              <div className="mt-12">
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading text-primary leading-tight">
-                  Referenzen
-                </h2>
-                <div className="mt-6 font-body text-text-dark leading-relaxed text-base lg:text-lg">
-                  <p>
-                    Mindmess:{" "}
-                    <a
-                      href="https://buchshop.bod.de/behind-bloody-shadows-mind-mess-9783695101269"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary underline underline-offset-2 hover:text-primary-light transition-colors duration-200"
-                    >
-                      Behind Bloody Shadows
-                    </a>
-                  </p>
-                </div>
               </div>
             </div>
           </div>
