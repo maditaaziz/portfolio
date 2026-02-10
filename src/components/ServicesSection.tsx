@@ -163,7 +163,7 @@ export default function ServicesSection() {
               sorgt für einen fehlerfreien Text.
             </p>
             <p>Worauf ich im Korrektorat achte:</p>
-            <ul className="list-disc list-inside space-y-1 pl-2">
+            <ul className="list-disc list-outside space-y-1 pl-6">
               <li>Rechtschreibung</li>
               <li>Grammatik</li>
               <li>Zeichensetzung</li>
