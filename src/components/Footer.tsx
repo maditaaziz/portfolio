@@ -6,13 +6,13 @@ export default function Footer() {
   return (
     <footer className="bg-bg-warm">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-10 lg:py-14">
-        <div className="flex flex-col md:flex-row items-end justify-between gap-8">
+        <div className="flex flex-col md:flex-row items-center md:items-end justify-between gap-8">
           {/* Left - Brand & Contact */}
           <div className="text-center md:text-left">
             <Link href="/" className="text-xl font-heading text-primary font-bold tracking-tight">
               Madita Anna
             </Link>
-            <div className="mt-1 flex flex-col gap-1">
+            <div className="mt-1 flex flex-col items-center md:items-start gap-1">
               <span className="text-sm font-body text-text-dark">
                 madita.lektorat@gmail.com
               </span>
