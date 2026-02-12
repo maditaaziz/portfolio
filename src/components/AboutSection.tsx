@@ -62,7 +62,7 @@ export default function AboutSection() {
               </h2>
               <div className="mt-6 space-y-4 font-body text-text-dark leading-relaxed text-base lg:text-lg">
                 <p>
-                  Wahrend meines Germanistikstudiums habe ich in verschiedenen
+                  Während meines Germanistikstudiums habe ich in verschiedenen
                   Verlagen gearbeitet (u.a. Allitera Verlag, Otto Müller Verlag,
                   Benevento Publishing / Red Bull Media House) und dabei gemerkt,
                   wie sehr mir die Arbeit mit Texten liegt.
